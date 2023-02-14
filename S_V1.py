@@ -3,7 +3,7 @@ import os
 import openai
 
 # Read OpenAI API key from environment variable
-openai.api_key = os.getenv("API_KEY")
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Define a function to generate job letter
 def generate_job_letter(name, email, job_title, job_description, tone, word_count):
